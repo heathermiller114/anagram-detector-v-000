@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word_array)
-    word_array.split(/,\s/).sort
+    word_array.split("")
     binding.pry
   end
 
