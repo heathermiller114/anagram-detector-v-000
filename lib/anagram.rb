@@ -2,8 +2,8 @@
 require 'pry'
 class Anagram
 
-  def initialize(word)
-    @word = word
+  def initialize(anagram_word)
+    @anagram_word = anagram_word
   end
   
   def match(word_array)
@@ -12,7 +12,7 @@ class Anagram
   end
   
   def anagram?(word)
-    word.chars.sort == @word.chars.sort
+    word.chars.sort == @anagram_word.chars.sort
   end
   
 
