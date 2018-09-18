@@ -15,4 +15,4 @@ class Anagram
     word.chars.sort == @anagram_word.chars.sort
   end
   
-end
+
