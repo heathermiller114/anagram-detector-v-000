@@ -7,8 +7,7 @@ class Anagram
   end
   
   def match(word_array)
-
-    binding.pry
+    words
   end
 
 end
