@@ -1,5 +1,5 @@
 # Your code goes here!
-require 'pry'
+
 class Anagram
 
   def initialize(anagram_word)
@@ -15,5 +15,4 @@ class Anagram
     word.chars.sort == @anagram_word.chars.sort
   end
   
-
 end
