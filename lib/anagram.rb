@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word_array)
-    words_array.select do |word|
+    word_array.select do |word|
       anagram?(word)
     end
   end
