@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word_array)
-    word_array.split("")
+    word_hash = Hash[word_array.collect { |string| [string, ""] } ]
     binding.pry
   end
 
